@@ -1,0 +1,15 @@
+{
+  "id": "b2",
+  "slug": "dicas-tailwind-portfolio",
+  "title": "10 dicas de Tailwind para portfólios",
+  "date": "2025-09-15",
+  "categories": ["UI/UX"],
+  "tags": ["Tailwind", "UI"],
+  "excerpt": "Utilitários e padrões que deixam seu portfólio mais profissional.",
+  "cover": "/cover/MainAfter.jpg",
+  "content": "Dicas práticas de **composição**, spacing, cores e acessibilidade...",
+  "html": "<p>Dicas práticas de <strong>composição</strong>, spacing, cores e acessibilidade...</p>",
+  "readingMinutes": 3,
+  "featured": false,
+  "draft": false
+}

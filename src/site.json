@@ -1,0 +1,23 @@
+{
+  "name": "Pablo Ortiz",
+  "role": "Desenvolvedor Full Stack",
+  "typed": ["Desenvolvedor Front-End", "React","Node","Python"],
+  "bio": "Olá! Sou Pablo Ortiz, um desenvolvedor Front-End no caminho para ser Full Stack apaixonado por criar soluções web inovadoras. Com experiência em React, Node.js e bancos de dados, estou sempre em busca de novos desafios para aprimorar minhas habilidades e entregar projetos de alta qualidade.",
+  "location": "São Paulo, Brasil",
+  "years": 2,
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Python",
+    "Git",
+    "SQL"
+  ],
+  "avatar": "/perfil.jpg",
+  "socials": {
+    "github": "https://github.com/pablomigueldias",
+    "linkedin": "https://linkedin.com/in/pablo-miguel-dias-ortiz/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Seu Nome",
+  "role": "Desenvolvedor Front-end",
+  "taglines": ["React", "Portfólios Modernos"],
+  "social": {
+    "github": "https://github.com/seu-usuario",
+    "linkedin": "https://www.linkedin.com/in/seu-usuario"
+  },
+  "nav": [
+    {"label": "Início", "to": "/"},
+    {"label": "Portfólio", "to": "/portfolio"},
+    {"label": "Blog", "to": "/blog"},
+    {"label": "Contato", "to": "/contato"}
+  ]
+}

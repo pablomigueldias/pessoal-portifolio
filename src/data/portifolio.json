@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Micro Site Tattoo",
+    "slug": "micro-site-tattoo",
+    "cover": "/cover/exemplo-tatto1.png",
+    "categories": ["Micro Site", "HTML","CSS"],
+    "summary": "Micro site ideal para estúdios de tatuagem, para colocar na bio do Instagram. Com animações, formulário funcional e responsivo.",
+    "tags": ["HTML", "CSS", "Micro Site"],
+    "gallery": ["/cover/exemplo-tatto1.png", "/cover/exemplo-tatto2.png", "/cover/exemplo-tatto3.png"],
+    "demo": "https://micro-site-tattoo.vercel.app/",
+    "repo": "https://github.com/pablomigueldias/micro-site-tattoo",
+    "description": "Micro site ideal para estúdios de tatuagem, para colocar na bio do Instagram. Com animações, formulário funcional e responsivo."
+  },
+  {
+    "title": "Micro Site Museu",
+    "slug": "micro-site-museu",
+    "cover": "/cover/exemplo-museu1.png",
+    "categories": ["Micro Site", "HTML","CSS"],
+    "summary": "Micro site para museus, com design elegante e foco em exibir coleções e eventos. Responsivo e fácil de navegar.",
+    "tags": ["HTML", "CSS", "JS"],
+    "gallery": ["/cover/exemplo-museu1.png", "/cover/exemplo-museu2.png","/cover/exemplo-museu3.png"],
+    "demo": "https://micro-site-museu.vercel.app/",
+    "repo": "https://github.com/pablomigueldias/micro-site-museu"
+  }
+  
+]

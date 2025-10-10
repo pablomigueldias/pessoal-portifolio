@@ -1,0 +1,17 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #111;
+}
+/* opcional */
+html,
+body,
+#root {
+  height: 100%;
+}
