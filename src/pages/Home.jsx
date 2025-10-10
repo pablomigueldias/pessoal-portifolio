@@ -18,7 +18,7 @@ export default function Home() {
         <>
             {/* HERO */}
             <div className="relative overflow-hidden">
-                
+
                 <div className="pointer-events-none absolute inset-0 opacity-60 dark:opacity-70"
                     style={{
                         background:
@@ -136,7 +136,7 @@ export default function Home() {
                             </li>
                             <li className="p-3 rounded-xl bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10">
                                 <span className="block text-black/50 dark:text-white/50">Disponível</span>
-                                <span className="font-semibold">Estagio</span>
+                                <span className="font-semibold">Desenvolvedor Front-End / PJ </span>
                             </li>
                         </ul>
 
