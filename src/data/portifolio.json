@@ -17,10 +17,21 @@
     "cover": "/cover/exemplo-museu1.png",
     "categories": ["Micro Site", "HTML","CSS"],
     "summary": "Micro site para museus, com design elegante e foco em exibir coleções e eventos. Responsivo e fácil de navegar.",
-    "tags": ["HTML", "CSS", "JS"],
+    "tags": ["HTML", "CSS", "Java Script"],
     "gallery": ["/cover/exemplo-museu1.png", "/cover/exemplo-museu2.png","/cover/exemplo-museu3.png"],
     "demo": "https://micro-site-museu.vercel.app/",
     "repo": "https://github.com/pablomigueldias/micro-site-museu"
+  },
+  {
+    "title": "Site Evento",
+    "slug": "site-evento",
+    "cover": "/cover/exemplo-evento.png",
+    "categories": ["Site", "React","JavaScript"],
+    "summary": "Site de Eventos, para divulgação de serviços.",
+    "tags": ["Site", "React", "Java Script"],
+    "gallery": ["/cover/exemplo-evento.png", "/cover/exemplo-evento1.png","/cover/exemplo-evento2.png","/cover/exemplo-evento3.png"],
+    "demo": "https://eventos-site-self.vercel.app/",
+    "repo": "https://github.com/pablomigueldias/Eventos-site"
   }
   
 ]
