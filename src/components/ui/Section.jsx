@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from './container.jsx'
+import Container from './Container.jsx'
 
 const Section = ({ id, title, subtitle, children }) => {
     return (
