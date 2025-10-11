@@ -1,4 +1,4 @@
-# Portfólio — Pablo Ortiz
+# Portifólio — Pablo Ortiz
  
 
 Aqui apresento meus projetos, habilidades e experiências.
