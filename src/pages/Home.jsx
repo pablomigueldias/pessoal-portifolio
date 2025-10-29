@@ -12,14 +12,18 @@ const fadeUp = {
 };
 
 export default function Home() {
-    const typed = Array.isArray(site.typed) && site.typed.length > 0 ? site.typed : [site.role || "Frontend Developer"];
+    // Fallback atualizado para a nova área
+    const typed =
+        Array.isArray(site.typed) && site.typed.length > 0
+            ? site.typed
+            : [site.role || "Engenheiro de Dados", "Analista de Dados", "Machine Learning", "Inteligência Artificial"];
 
     return (
         <>
             {/* HERO */}
             <div className="relative overflow-hidden">
-
-                <div className="pointer-events-none absolute inset-0 opacity-60 dark:opacity-70"
+                <div
+                    className="pointer-events-none absolute inset-0 opacity-60 dark:opacity-70"
                     style={{
                         background:
                             "radial-gradient(60rem 60rem at 20% -10%, rgba(99,102,241,.25), transparent 60%), radial-gradient(50rem 40rem at 100% 0%, rgba(16,185,129,.18), transparent 60%)"
@@ -77,10 +81,10 @@ export default function Home() {
                         transition={{ delay: 0.45, duration: 0.6 }}
                         className="mt-8 flex flex-wrap justify-center gap-2"
                     >
-                        {["React", "Node", "Python", "SQL"].map((t) => (
+                        {["Python", "SQL", "Pandas", "Power BI", "TensorFlow", "Machine Learning"].map((t) => (
                             <span
                                 key={t}
-                                className="px-3 py-1 rounded-full text-xs bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10"
+                                className="px-3 py-1 rounded-full text-xs bg-black/5 dark:bg:white/5 border border-black/10 dark:border-white/10"
                             >
                                 {t}
                             </span>
@@ -116,9 +120,12 @@ export default function Home() {
                         viewport={{ once: true, amount: 0.2 }}
                         transition={{ delay: 0.1, duration: 0.5 }}
                     >
-                        <h3 className="text-2xl font-bold">{site.role || "Desenvolvedor Frontend"}</h3>
+                        <h3 className="text-2xl font-bold">
+                            {site.role || "Engenheiro de Dados e Inteligência Artificial"}
+                        </h3>
                         <p className="mt-3 text-black/70 dark:text-white/70 leading-relaxed">
-                            {site.bio || "Sou desenvolvedor frontend focado em React e interfaces limpas. Curto transformar layouts em experiências rápidas e acessíveis."}
+                            {site.bio ||
+                                "Transformo dados em decisões. Trabalho com pipelines (ETL), modelagem preditiva e visualização de dados para gerar impacto real. Experiência com Python, SQL, Pandas e ferramentas de BI. Sempre aprendendo e aplicando IA de forma prática e eficiente."}
                         </p>
 
                         <ul className="mt-6 grid sm:grid-cols-2 gap-3 text-sm">
@@ -132,17 +139,20 @@ export default function Home() {
                             </li>
                             <li className="p-3 rounded-xl bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10">
                                 <span className="block text-black/50 dark:text-white/50">Stack</span>
-                                <span className="font-semibold">React • Java Script • Python • Java • SQL</span>
+                                <span className="font-semibold">Python • SQL • Pandas • Power BI • TensorFlow</span>
                             </li>
                             <li className="p-3 rounded-xl bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10">
                                 <span className="block text-black/50 dark:text-white/50">Disponível</span>
-                                <span className="font-semibold">Desenvolvedor Front-End / PJ </span>
+                                <span className="font-semibold">Engenharia de Dados / Análise de Dados • PJ</span>
                             </li>
                         </ul>
 
                         {/* Skills pills */}
                         <div className="mt-6 flex flex-wrap gap-2">
-                            {(Array.isArray(site.skills) ? site.skills : ["React", "Python", "Java", "SQL"]).map((s) => (
+                            {(Array.isArray(site.skills)
+                                ? site.skills
+                                : ["Python", "SQL", "Pandas", "Power BI", "TensorFlow", "Machine Learning"]
+                            ).map((s) => (
                                 <span
                                     key={s}
                                     className="px-3 py-1 rounded-full text-xs bg-indigo-500/10 text-indigo-500 border border-indigo-500/20"
@@ -178,6 +188,7 @@ export default function Home() {
                     </motion.div>
                 </div>
             </Section>
+
             <Section id="skills" title="Habilidades" subtitle="Tecnologias que uso">
                 <Skills />
             </Section>

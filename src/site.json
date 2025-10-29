@@ -1,19 +1,24 @@
 {
   "name": "Pablo Ortiz",
-  "role": "Desenvolvedor Full Stack",
-  "typed": ["Desenvolvedor Front-End", "React","Node","Python"],
-  "bio": "Olá! Sou Pablo Ortiz, um desenvolvedor Front-End no caminho para ser Full Stack apaixonado por criar soluções web inovadoras. Com experiência em React, Node.js e bancos de dados, estou sempre em busca de novos desafios para aprimorar minhas habilidades e entregar projetos de alta qualidade.",
+  "role": "Engenheiro de Dados e Inteligência Artificial",
+  "typed": ["Engenheiro de Dados", "Analista de Dados", "Machine Learning", "Inteligência Artificial"],
+  "bio": "Olá! Sou Pablo Ortiz, um apaixonado por dados e inteligência artificial. Transformo grandes volumes de informação em soluções inteligentes, criando pipelines de dados, modelos preditivos e automações que geram valor real para empresas e pessoas. Tenho experiência com Python, SQL, Machine Learning e ferramentas de análise e visualização de dados, sempre buscando evoluir e aplicar IA de forma prática e eficiente.",
   "location": "São Paulo, Brasil",
   "years": 2,
   "skills": [
-    "JavaScript",
-    "React",
-    "Node.js",
-    "Express",
-    "MongoDB",
     "Python",
+    "SQL",
+    "Power BI",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "TensorFlow",
+    "ETL",
+    "Machine Learning",
+    "APIs",
+    "Data Visualization",
     "Git",
-    "SQL"
+    "MongoDB"
   ],
   "avatar": "/perfil.jpg",
   "socials": {
@@ -21,3 +26,4 @@
     "linkedin": "https://linkedin.com/in/pablo-miguel-dias-ortiz/"
   }
 }
+
