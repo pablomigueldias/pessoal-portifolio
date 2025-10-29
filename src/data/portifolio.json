@@ -32,6 +32,22 @@
     "gallery": ["/cover/exemplo-evento.png", "/cover/exemplo-evento1.png","/cover/exemplo-evento2.png","/cover/exemplo-evento3.png"],
     "demo": "https://eventos-site-self.vercel.app/",
     "repo": "https://github.com/pablomigueldias/Eventos-site"
-  }
+  },
+  {
+  "title": "Fraude Pipeline",
+  "slug": "fraude-pipeline",
+  "cover": "/cover/fraude-pipeline.png",
+  "categories": ["Machine Learning", "Data Science", "FastAPI", "Streamlit"],
+  "summary": "Pipeline completo de detecção de fraudes com ETL, Machine Learning, API FastAPI e Dashboard em Streamlit.",
+  "tags": ["Python", "Machine Learning", "ETL", "FastAPI", "Streamlit", "PostgreSQL"],
+  "gallery": [
+    "/cover/fraude-pipeline.png",
+    "/cover/fraude-pipeline1.png",
+    "/cover/fraude-pipeline3.png"
+  ],
+  "demo": "https://github.com/pablomigueldias/fraude-pipeline",
+  "repo": "https://github.com/pablomigueldias/fraude-pipeline"
+}
+
   
 ]
