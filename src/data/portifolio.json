@@ -47,7 +47,21 @@
   ],
   "demo": "https://github.com/pablomigueldias/fraude-pipeline",
   "repo": "https://github.com/pablomigueldias/fraude-pipeline"
+},
+{
+  "title": "Projeto 01 — Previsão de Notas dos Estudantes",
+  "slug": "previsao-notas-estudantes",
+  "cover": "/cover/regressao-linear.png",
+  "categories": ["Machine Learning", "Data Science", "EDA", "Model Deployment"],
+  "summary": "Modelo de regressão para prever a nota de matemática de estudantes a partir de variáveis socioeducacionais e desempenho em leitura e escrita. Inclui EDA completa, comparação de modelos e avaliação final (R²≈0.87, MAE≈3.42, RMSE≈4.91).",
+  "tags": ["Python", "Scikit-Learn", "Pandas", "NumPy", "Seaborn", "Matplotlib", "Joblib", "Regressão Linear", "EDA"],
+  "gallery": [
+    "/cover/influencia-curso.png",
+    "/cover/media-por-genero.png",
+    "/cover/regressao-linear.png"
+  ],
+  "demo": "https://github.com/pablomigueldias/machine-learning-projects/tree/main/projeto_01_previsao_notas",
+  "repo": "https://github.com/pablomigueldias/machine-learning-projects/tree/main/projeto_01_previsao_notas"
 }
 
-  
 ]
