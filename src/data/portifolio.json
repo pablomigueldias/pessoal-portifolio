@@ -62,6 +62,33 @@
   ],
   "demo": "https://github.com/pablomigueldias/machine-learning-projects/tree/main/projeto_01_previsao_notas",
   "repo": "https://github.com/pablomigueldias/machine-learning-projects/tree/main/projeto_01_previsao_notas"
+},
+{
+  "title": "Assistente Jurídico com IA e RAG",
+  "slug": "assistente-juridico-ia-rag",
+  "cover": "/cover/agentejuridico.png",
+  "categories": ["Inteligência Artificial", "Agente"],
+  "summary": "Sistema completo de Inteligência Artificial Jurídica com backend em FastAPI e frontend em React. Utiliza RAG (Retrieval-Augmented Generation) para responder com base em contratos e documentos reais, e um agente autônomo que classifica e extrai informações jurídicas. Inclui interface de chat moderna e ingestão automática de dados jurídicos.",
+  "tags": [
+    "Python",
+    "FastAPI",
+    "LangChain",
+    "ChromaDB",
+    "Ollama",
+    "React",
+    "Tailwind CSS",
+    "RAG",
+    "Agente",
+    "IA"
+  ],
+  "gallery": [
+    "/cover/agentejuridico.png",
+    "/cover/agentejuridico1.png",
+    "/cover/agentejuridico2.png"
+  ],
+  "demo": "https://github.com/pablomigueldias/assistente-advocacia",
+  "repo": "https://github.com/pablomigueldias/assistente-advocacia"
 }
+
 
 ]
